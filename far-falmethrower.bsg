@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Besiege machine save file.-->
+<Machine version="1" name="far-falmethrower">
+    <!--The machine's position and rotation.-->
+    <Global>
+        <Position x="0.03799048" y="0.5224333" z="-0.003641218" />
+        <Rotation x="0" y="-1.482156E-08" z="0" w="1" />
+    </Global>
+    <!--The machine's additional data or modded data.-->
+    <Data>
+        <String key="modLoader-machineData">MachineData
+</String>
+    </Data>
+    <!--The machine's blocks.-->
+    <Blocks>
+        <Block id="0" guid="6559ad2b-b6e0-4597-86db-e60168b6ddaf">
+            <Transform>
+                <Position x="0" y="0" z="0" />
+                <Rotation x="0" y="0" z="0" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data />
+        </Block>
+        <Block id="57" guid="bdc7c1fc-5d5f-4ae3-9559-5164b8539c61">
+            <Transform>
+                <Position x="0" y="0" z="0" />
+                <Rotation x="0" y="2.781418E-07" z="0" w="-1" />
+                <Scale x="0.9953101" y="0.9953101" z="0.9953101" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-unpin">P</StringArray>
+                <Boolean key="bmt-hide-visual">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="13" guid="49a36062-ed5e-4889-8f44-1f6c66a0a77b">
+            <Transform>
+                <Position x="0" y="0.5" z="0" />
+                <Rotation x="0.7071068" y="1.933091E-07" z="1.933091E-07" w="-0.7071068" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-left">LeftArrow</StringArray>
+                <StringArray key="bmt-right">RightArrow</StringArray>
+                <Single key="bmt-rotation-speed">0.1</Single>
+                <Boolean key="flipped">True</Boolean>
+            </Data>
+        </Block>
+        <Block id="28" guid="46144020-e664-4a60-b2d0-f41048c2a3e5">
+            <Transform>
+                <Position x="-4.686339E-15" y="1.597893" z="-1.58092E-07" />
+                <Rotation x="0.5000005" y="-0.4999993" z="-0.4999996" w="-0.5000008" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-left">UpArrow</StringArray>
+                <StringArray key="bmt-right">DownArrow</StringArray>
+                <Single key="bmt-rotation-speed">0.1</Single>
+                <Boolean key="bmt-uselimits">True</Boolean>
+                <SingleArray key="bmt-limits">
+                    <Single>180</Single>
+                    <Single>180</Single>
+                </SingleArray>
+                <Boolean key="flipped">False</Boolean>
+            </Data>
+        </Block>
+        <Block id="21" guid="f4ec17a9-5b8a-44d8-bb7b-62acd8fcc45f">
+            <Transform>
+                <Position x="-3.442248E-06" y="2.097893" z="0.5000001" />
+                <Rotation x="3.211047E-07" y="-1.190612E-06" z="1.789701E-08" w="1" />
+                <Scale x="0.7" y="0.7" z="0.7" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-ignite">Y</StringArray>
+                <Boolean key="bmt-hold-to-fire">True</Boolean>
+                <Single key="bmt-range">1000</Single>
+            </Data>
+        </Block>
+        <Block id="58" guid="3cdacf55-460a-44d8-bcbb-fb901a72d82c">
+            <Transform>
+                <Position x="-3.557732E-06" y="2.097893" z="0.5000001" />
+                <Rotation x="3.370552E-07" y="-1.316694E-06" z="-2.786135E-08" w="1" />
+                <Scale x="1" y="1" z="1" />
+            </Transform>
+            <Data>
+                <StringArray key="bmt-activate">F</StringArray>
+                <Integer key="bmt-mode">3</Integer>
+                <Boolean key="bmt-advanced-options">False</Boolean>
+                <Single key="bmt-distance">1</Single>
+                <Single key="bmt-height">0</Single>
+                <Single key="bmt-rotation">0</Single>
+                <Single key="bmt-pitch">0</Single>
+                <Single key="bmt-roll">0</Single>
+                <Single key="bmt-yaw">180</Single>
+                <Single key="bmt-smooth">0.75</Single>
+                <Single key="bmt-fov">60</Single>
+            </Data>
+        </Block>
+    </Blocks>
+</Machine>
